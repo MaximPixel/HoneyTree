@@ -1,0 +1,21 @@
+modLoader = "javafml"
+loaderVersion = "[40,)"
+license = "MIT"
+[[mods]]
+modId = "honeytree"
+version = "${file.jarVersion}"
+displayName = "Honey Tree"
+authors = "MaximPixel"
+description = ""
+[[dependencies.honeytree]]
+modId = "forge"
+mandatory = true
+versionRange = "[40,)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.honeytree]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.18.2,1.19)"
+ordering = "NONE"
+side = "BOTH"
