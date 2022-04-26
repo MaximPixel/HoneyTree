@@ -1,0 +1,16 @@
+{
+	"variants": {
+		"axis=x": {
+			"model": "honeytree:block/honey_log_horizontal",
+			"x": 90,
+			"y": 90
+		},
+		"axis=y": {
+			"model": "honeytree:block/honey_log"
+		},
+		"axis=z": {
+			"model": "honeytree:block/honey_log_horizontal",
+			"x": 90
+		}
+	}
+}
